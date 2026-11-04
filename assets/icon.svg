@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#242019"/>
+      <stop offset="100%" stop-color="#15130F"/>
+    </linearGradient>
+    <linearGradient id="slip" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8DDC6"/>
+      <stop offset="45%" stop-color="#FAF5E9"/>
+      <stop offset="100%" stop-color="#DCCFB2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- 左简 -->
+  <rect x="116" y="132" width="56" height="248" rx="13" fill="url(#slip)" opacity="0.30"/>
+  <!-- 右简 -->
+  <rect x="340" y="132" width="56" height="248" rx="13" fill="url(#slip)" opacity="0.30"/>
+
+  <!-- 中简 上段 -->
+  <path d="M204 132 h104 a13 13 0 0 1 13 13 v92
+           l-130 34 v-126 a13 13 0 0 1 13 -13 z" fill="url(#slip)"/>
+  <!-- 中简 下段（断口错开） -->
+  <path d="M191 386 h104 a13 13 0 0 0 13 -13 v-96
+           l-130 -34 v130 a13 13 0 0 0 13 13 z" fill="url(#slip)" opacity="0.72"/>
+
+  <!-- 断口：朱色描边，两道 -->
+  <path d="M191 271 l130 -34" fill="none" stroke="#B4442F" stroke-width="5"
+        stroke-linecap="round"/>
+  <path d="M191 256 l130 -34" fill="none" stroke="#B4442F" stroke-width="2"
+        stroke-linecap="round" opacity="0.55"/>
+
+  <!-- 简上字痕 -->
+  <g stroke="#2C261D" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.62">
+    <path d="M236 168 h44"/>
+    <path d="M258 168 v30"/>
+    <path d="M228 198 h60"/>
+    <path d="M240 220 l18 18"/>
+    <path d="M276 220 l-18 18"/>
+    <path d="M258 250 v14" opacity="0.5"/>
+  </g>
+  <g stroke="#2C261D" stroke-width="5.5" stroke-linecap="round" fill="none" opacity="0.40">
+    <path d="M258 300 v34"/>
+    <path d="M238 326 h40"/>
+    <path d="M228 352 h60"/>
+    <path d="M258 352 v18"/>
+  </g>
+</svg>
