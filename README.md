@@ -1,5 +1,7 @@
 # 小焕1号 · XiaoHuan-1
 
+> **小焕系列**：[1 号](https://github.com/Ivan666jjj/xiaohuan-1) 字形候选检索 · [2 号](https://github.com/Ivan666jjj/xiaohuan-2) 字形 + 辞例 · [3 号](https://github.com/Ivan666jjj/xiaohuan-3) 补全 + 双通道融合 · [工具箱](https://github.com/Ivan666jjj/xiaohuan-tools)
+
 给一个简牍上残缺的字，排出最可能是哪几个字。
 
 **它不给答案，它给候选。**
